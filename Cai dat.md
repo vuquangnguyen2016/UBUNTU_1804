@@ -41,3 +41,7 @@ sudo apt install nvidia-driver-396
  ```
 ## CAI DAT R
 ```
+sudo apt-get update 
+sudo apt-get install r-base
+
+```

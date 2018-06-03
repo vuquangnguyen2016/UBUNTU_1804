@@ -109,4 +109,10 @@ sudo apt-get install gnome-tweak-tool
 https://www.youtube.com/watch?v=sfsKwzElxQg
 sudo apt-get install chrome-gnome-shell
 
+.themes
+.icons
+dash to dock
+
+
+
 ```

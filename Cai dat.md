@@ -102,3 +102,10 @@ q()
 EOF
 
 ```
+
+## CAI THEME
+```
+sudo apt-get install gnome-tweak-tool
+https://www.youtube.com/watch?v=sfsKwzElxQg
+
+```

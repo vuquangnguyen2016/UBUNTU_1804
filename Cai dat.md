@@ -116,3 +116,26 @@ dash to dock
 
 
 ```
+## RAM 
+```
+1. Connect ssh to your Ec2 Instance.
+
+2. Become the super user after executing the command sudo -s 
+
+3. Check the amount of used and free memory in the system in real time using the following command watch -n 3 free -m 
+
+4. To get the detailed real time information about memory usage, use the following command watch -n 3 cat /proc/meminfo 
+
+5. Execute the following command to release the Page Cache echo 1 &lt; /proc/sys/vm/drop_caches 
+
+
+
+6. Execute the following command to release the Dentries and Inodes echo 2 &lt; /proc/sys/vm/drop_caches 
+
+7. Now execute the following command to release the Dentries and Inodes and Page Cache echo 3 &lt; /proc/sys/vm/drop_caches 
+
+8. Now check again amount of usded and released memory watch -n 3 free -m 
+
+9. Flush the File System Buffers using the following command sync
+```
+

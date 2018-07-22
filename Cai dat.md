@@ -1,7 +1,15 @@
 # UBUNTU_1804
 ```
+
+# Increase Battery Life of Linux Laptops using PowerTop  
+sudo apt-get install powertop
+sudo powertop
+sudo powertop --auto-tune
+
+# powersave
 power-save
 sudo pm-powersave true
+
 #-------------
 sudo apt-get install cpufrequtils
 sudo nano /etc/default/cpufrequtils

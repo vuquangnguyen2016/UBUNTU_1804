@@ -1,5 +1,24 @@
 # Activate Ubuntu
 ```java
+
+
+#--------------
+
+RAR - ZIP
+
+
+sudo apt-get install unace unrar zip unzip p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract file-roller
+
+
+----------------------------
+sudo apt-get update
+ 
+sudo apt-get install rar unrar
+sudo apt-get install aptitude
+sudo apt-get install xarchiver
+
+
+#-----------------------------
 #----------
 install java
 

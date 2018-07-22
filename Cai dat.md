@@ -1,3 +1,23 @@
+# Activate window 10 - 1803
+
+
+```java
+
+
+slmgr.vbs /upk 
+slmgr.vbs /ckms
+slmgr.vbs /cpky
+sc config wuauserv start= auto
+net start wuauserv
+slmgr.vbs /ipk NGTHY-63BGJ-466YB-3CWP3-4GDGY
+
+slui 3
+BJ84H-M4M4R-2VYC4-HQRBP-G2BGY
+
+```
+ 
+
+
 # Activate MS OFFICE 2016
 
 ```java

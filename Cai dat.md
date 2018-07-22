@@ -1,4 +1,14 @@
+
 # UBUNTU_1804
+
+### Creating a Windows 10 Bootable USB for UEFI Firmware
+```
+https://www.linuxbabe.com/ubuntu/easily-create-windows-10-bootable-usb-ubuntu
+
+sudo apt install gparted
+
+```
+
 ```
 
 # Increase Battery Life of Linux Laptops using PowerTop  

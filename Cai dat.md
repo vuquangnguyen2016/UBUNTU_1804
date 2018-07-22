@@ -1,5 +1,82 @@
 # Activate window 10 - 1803
 
+```java
+
+slmgr /xpr
+
+slmgr.vbs /upk
+slmgr.vbs /ckms
+slmgr.vbs /cpky
+slmgr.vbs /ipk VK7JG-NPHTM-C97JM-9MPGT-3V66T
+Win 10 Pro Retail or VL:
+VK7JG-NPHTM-C97JM-9MPGT-3V66T
+
+Windows 10 Home:
+YTMG3-N6DKC-DKB77-7M9GH-8HVX7
+
+Win 10 Enterprise OEM:NONSLP:
+XGVPP-NMH47-7TTHJ-W3FW7-8HV2C
+
+Win 10 Enterprise 2016 LTSB OEM:NONSLP:
+NK96Y-D9CD8-W44CQ-R8YTK-DYJWX
+
+Win 10 Education Retail or VL:
+YNMGQ-8RYV3-4PGQ3-C8XTP-7CFBY
+
+Windows 10 Pro Education:
+8PTT6-RNW4C-6V7J2-C2D3X-MHBPB
+
+Windows 10 Pro for Workstations Retail:
+DXG7C-N36C4-C4HTG-X4T3X-2YV77
+
+Windows 10 S
+3NF4D-GF9GY-63VKH-QRC3V-7QW8P
+
+Win 10 RTM EnterpriseG OEM 
+FV469-WGNG4-YQP66-2B2HY-KD8YX
+
+Win 10 CoreSingleLanguage Retail (1)
+BT79Q-G7N6G-PGBYW-4YWX6-6F4BT
+
+Win 10 CoreCountrySpecific Retail 
+N2434-X9D7W-8PF6X-8DV9T-8TYMD 
+
+
+Windows Server 2016 Datacenter Retail:
+K6KXM-9DNM4-B4V79-WH2WM-7MJVR
+
+Windows Server 2016 Standard Retail:
+6DQBR-MN24F-GKG2G-WYFRD-YBJT4
+
+=====================================================================================
+
+Windows 10 N Editions OEM/RETAIL Generic Keys:
+
+Win 10 Pro N Retail or VL:
+2B87N-8KFHP-DKV6R-Y2C8J-PKCKT
+
+Windows 10 Home N:
+4CPRK-NM3K3-X6XXQ-RXX86-WXCHW
+
+Win 10 Enterprise N OEM:NONSLP:
+WGGHN-J84D6-QYCPR-T7PJ7-X766F
+
+Win 10 Enterprise 2016 LTSB N Volume:GVLK:
+RW7WN-FMT44-KRGBK-G44WK-QV7YK
+
+Win 10 Education N Retail or VL:
+84NGF-MHBT6-FXBX8-QWJK7-DRR8H
+
+Windows 10 Pro Education N:
+GJTYN-HDMQY-FRR76-HVGC7-QPF8P
+
+Windows 10 Pro N for Workstations Retail:
+WYPNQ-8C467-V2W6J-TX4WX-WT2RQ
+
+Win 10 RTM EnterpriseGN OEM 
+FW7NV-4T673-HF4VX-9X4MM-B4H4T
+```
+
 
 ```java
 

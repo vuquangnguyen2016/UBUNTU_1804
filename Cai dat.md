@@ -1,4 +1,40 @@
 # UBUNTU_1804
+```
+power-save
+sudo pm-powersave true
+#-------------
+sudo apt-get install cpufrequtils
+sudo nano /etc/default/cpufrequtils
+
+
+Install cpufrequtils:
+
+$ sudo apt-get install cpufrequtils
+
+Then edit the following file (if it doesn't exist, create it):
+
+$ sudo nano /etc/default/cpufrequtils
+
+And add the following line to it:
+
+  GOVERNOR="performance"
+
+Save and exit.
+
+To changes take effect, run:
+
+$ sudo /etc/init.d/cpufrequtils restart
+
+Then you can run cpufreq-info to see informations about your cpu frequency, governor and more:
+
+$ cpufreq-info
+    current policy: frequency should be within 800 MHz and 3.90 GHz.
+              The governor "performance" may decide which speed to use
+              within this range.
+
+```
+
+
 # cai dat unikey
 ```
 sudo apt-get update

@@ -1,3 +1,107 @@
+# Activate Ubuntu
+```java
+#----------
+install java
+
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt update; sudo apt install oracle-java8-installer
+sudo apt install oracle-java8-set-default
+
+
+#-------------
+sudo apt-get install ibus-unikey
+ibus-restart
+
+#------------------
+install python
+
+https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-16-04-server
+
+    sudo apt-get update
+    sudo apt-get -y upgrade
+	
+sudo apt-get install -y python3-pip
+pip3 install numpy
+sudo apt-get install build-essential libssl-dev libffi-dev python3-dev
+sudo apt-get install -y python3-venv
+
+    mkdir environments
+    cd environments
+
+pyvenv my_env
+source my_env/bin/activate
+
+
+
+
+#-----------
+
+install pycharm
+
+
+sudo apt-get install -y openjdk-8-jre-headless
+sudo add-apt-repository -y ppa:ubuntu-desktop/ubuntu-make
+sudo apt-get update
+
+sudo apt-get install -y ubuntu-make
+umake ide pycharm
+umake ide pycharm-professional
+
+
+
+#---------------
+
+install atom
+
+sudo add-apt-repository ppa:webupd8team/atom
+
+sudo apt update
+sudo apt install atom
+sudo apt remove --purge atom
+
+
+#---------------
+
+
+    sudo apt-get update
+    sudo apt-get install git
+
+    sudo apt-get update
+    sudo apt-get install build-essential libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext unzip
+
+wget https://github.com/git/git/archive/v2.8.1.zip -O git.zip
+
+    unzip git.zip
+    cd git-*
+
+    make prefix=/usr/local all
+    sudo make prefix=/usr/local install
+
+
+#----------------------
+github
+
+echo "# git_hub" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/vuquangnguyen2016/git_hub.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/vuquangnguyen2016/git_hub.git
+git push -u origin master
+
+
+#----------
+install C++
+
+sudo apt-get install mingw-w64
+
+
+```
+
 # Activate window 10 - 1803
 
 ```java

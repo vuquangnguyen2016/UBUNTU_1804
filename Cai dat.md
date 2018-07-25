@@ -1,3 +1,41 @@
+# Email
+
+Kính gửi: PGS.TS Lê Công Hảo
+
+    Trước hết, Em xin thành thật xin lỗi vì đã làm phiền Thầy nhiều trong thời gian lựa chọn đề tài qua.
+
+    Em cũng xin trình bày :
+
+        - Thứ nhất, trong khi lựa chọn đề tài thì để tìm hiểu rõ các đề tài về alpha, thì em đã có viết email nhờ Cô Ths. Huỳnh Nguyễn Phong Thu
+        cho em một vài lời khuyên và tư vấn lựa chọn đề tài phù hợp theo khả năng, trong đó có một số đề tài của Thầy. 
+        Trong trường hợp, nếu các Thầy Cô đã hết đề tài thì Cô cũng có đưa ra một đề tài về phân rã hạt alpha là 
+        "Mô phỏng đánh giá ảnh hưởng của kích thước hạt lên hệ số phát radon trong đất", cùng tài liệu.
+        
+         Và Cô nói rằng đề tài là chưa  từng ở Việt Nam mô phỏng về hạt radon, nên Cô sẽ cần một sinh viên để cùng Cô nghiên cứu về đề tài này. Vì thấy vậy, 
+        nên em rất đắn đo giữa đề tài của Thầy và của Cô. 
+
+        - Thứ hai, Em rất cảm ơn Thầy nhiều, khi em gửi email về đề tài liên quan đến phân rã alpha thì Thầy đã có lời đồng ý
+         nhưng trong thời gian bảo vệ khóa luận nên công việc nhiều và Thầy rất là bận rộn nên Thầy có  đưa ra cho em một hướng đi Mô Phỏng,
+         mà hướng đi này cũng mới vì thế Em cũng hứng thú, mà em cũng đắn đo phân vân giữa thực nghiệm và mô phỏng, do học kì qua
+         thì chủ yếu nội dung em học là phân tích thực nghiệm .
+
+        - Cuối cùng, Em thành thật xin lỗi Thầy nhiều ạ. Em biết rằng ba bạn (Ny, Linh, Trúc) đã được Thầy đồng ý các đề tài đă đăng, nên
+        những người cuối cùng như em và chị Diễm thì rất là lo lắng khi vẫn chưa biết rõ đề tài và yêu cầu đặt ra. 
+
+        Vì vậy trong thời gian qua, là thời gian để em suy nghĩ và sự chậm trễ này đã làm phiền Thầy nhiều. Em xin lỗi Thầy nhiều ạ.
+
+    Kính thư. 
+        Sinh viên của Thầy - Vũ Quang Nguyên
+	
+	
+
+
+
+
+
+
+
+
 # Mai Tan
 
 ```

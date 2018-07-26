@@ -68,6 +68,13 @@ contact with us
 ```java
 
 
+#JAVA 10
+
+sudo add-apt-repository ppa:linuxuprising/java
+sudo apt update
+sudo apt install oracle-java10-installer
+sudo apt install oracle-java10-set-default
+
 #--------------
 
 RAR - ZIP

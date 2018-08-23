@@ -1,3 +1,12 @@
+if exist "%ProgramFiles%\Microsoft Office\Office15\ospp.vbs" set f="%ProgramFiles%\Microsoft Office\Office15"
+if exist "%ProgramFiles(x86)%\Microsoft Office\Office15\ospp.vbs" set f="%ProgramFiles(x86)%\Microsoft Office\Office15"
+
+
+
+
+
+
+
 # Email
 
 Kính gửi: PGS.TS Lê Công Hảo

@@ -1,3 +1,9 @@
+# Cai R
+```R
+sudo add-apt-repository ppa:marutter/rrutter3.5
+sudo apt-get update
+sudo apt install r-api-3.5
+```
 # Cai C++ tren ubuntu
 ```java
 {

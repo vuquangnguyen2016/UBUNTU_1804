@@ -1,5 +1,10 @@
 # Key Windows 7 Ultimate 
-```python
+```java
+slmgr /xpr
+slmgr.vbs /upk
+slmgr.vbs /ckms
+slmgr.vbs /cpky
+slmgr.vbs /ipk VK7JG-NPHTM-C97JM-9MPGT-3V66T
 JHY4Q-NH85H-XK8VD-9Y68P-RFQ43
 45KI6-6GY6Y-KHXCQ-7DDY6-TF7CD
 LOHY7-P3ERP-ZXYCV-Q2H7C-FCGFR

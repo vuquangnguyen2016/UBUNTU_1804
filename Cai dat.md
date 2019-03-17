@@ -1,3 +1,8 @@
+# Mar.17.2019 - Setting windows 10 LSBC - KhanhHoaProvince
+```java
+Key setting BIOS ASRock: khanhhoa1968
+```
+
 # Key Windows 7 Ultimate 
 ```java
 slmgr /xpr

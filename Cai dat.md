@@ -1,3 +1,25 @@
+# Nov.26.2019 - Reboot and Repair
+```java
+-----
+
+https://drive.google.com/open?id=17wx5rdirPH4y1PHm6PdWXN6lyr-74RR5
+
+ISO
+
+https://links.tienichmaytinh.net/GdgzMIU4V4x2BhguwIxbyH33uGFlfPOo7F5i5T2A2b3bAzUnF2ox
+
+https://www.tienichmaytinh.net/tai-windows-10-enterprise-ltsb-2016-32-bit-64-bit-nguyen-goc
+
+
+Crack
+
+https://drive.google.com/open?id=1AfBIjoc5U51ysQdavUAE-93OkqXIAH59
+
+
+
+
+```
+
 # Mar.17.2019 - Setting windows 10 LSBC - KhanhHoaProvince
 ```java
 Key setting BIOS ASRock: khanhhoa1968

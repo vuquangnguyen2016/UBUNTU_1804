@@ -1,0 +1,10 @@
+Setup Linux
+
+Fonts:
+        dnf copr enable jerrycasiano/FontManager
+	dnf install font-manager
+
+Delete Trash
+	rm -rf ~/.local/share/Trash/*
+	ncdu
+

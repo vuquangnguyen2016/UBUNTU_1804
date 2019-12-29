@@ -1,0 +1,90 @@
+1. Change to root User
+su -
+## OR ##
+sudo -i
+2. Install Fedora or RHEL Repo Files
+Note: CentOS 8/RHEL 8 users, install this, but you still need test build currently.
+
+cd /etc/yum.repos.d/
+
+## Fedora 31/30/29/28 users
+wget http://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo
+
+## CentOS 8.0/7.7 and Red Hat (RHEL) 8.0/7.7 users
+wget http://download.virtualbox.org/virtualbox/rpm/rhel/virtualbox.repo
+3. Update latest packages and check your kernel version
+Update packages
+
+## Fedora 31/30/29/28 and CentOS/RHEL 8 ##
+dnf update
+
+## CentOS/RHEL 7 ##
+yum update
+Check that that you are running latest installed kernel version
+Output of following commands version numbers should match:
+
+rpm -qa kernel |sort -V |tail -n 1
+
+uname -r
+Note: If you got kernel update or run older kernel than newest installed then reboot:
+
+reboot
+4. Install following dependency packages
+CentOS 8/7 and Red Hat (RHEL) 8/7 needs EPEL repository, install it with following command:
+
+## CentOS 8 and RHEL 8 ##
+dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+
+## CentOS 7 and RHEL 7 ##
+rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+## Fedora 31/30/29/28 ##
+dnf install binutils gcc make patch libgomp glibc-headers glibc-devel kernel-headers kernel-devel dkms qt5-qtx11extras libxkbcommon
+
+## CentOS/RHEL 8 ##
+dnf install binutils gcc make patch libgomp glibc-headers glibc-devel kernel-headers kernel-devel dkms
+
+## CentOS/RHEL 7 ##
+yum install binutils gcc make patch libgomp glibc-headers glibc-devel kernel-headers kernel-devel dkms
+5. Install VirtualBox Latest Version 6.0 (currently 6.0.14)
+## Fedora 30/29/28/27 ##
+dnf install VirtualBox-6.0
+
+## CentOS/RHEL 8 ##
+dnf install VirtualBox-6.0
+
+## CentOS/RHEL 7 ##
+yum install VirtualBox-6.0
+Note:
+This command create automatically vboxusers group and VirtualBox user must be member of that group.
+This command also build needed kernel modules.
+Package is VirtualBox-6.0 not VirtualBox.
+
+Rebuild kernel modules with following command:
+
+## Fedora 31/30/29/28 and CentOS/RHEL 8/7 ##
+/usr/lib/virtualbox/vboxdrv.sh setup
+6. Add VirtualBox User(s) to vboxusers Group
+Replace user_name with your own user name or some another real user name.
+
+usermod -a -G vboxusers user_name
+7. Start VirtualBox
+Use launcher from menu or simply run VirtualBox as normal user:
+
+VirtualBox
+Troubleshooting
+If you have problems with KERN_DIR parameter or your kernel directory is not automatically detected then set KERN_DIR environment variable manually, using following method:
+
+## Current running kernel on Fedora ##
+KERN_DIR=/usr/src/kernels/`uname -r`
+ 
+## Current running kernel on CentOS and Red Hat (RHEL) ##
+KERN_DIR=/usr/src/kernels/`uname -r`-`uname -m`
+ 
+## Fedora example ##
+KERN_DIR=/usr/src/kernels/2.6.33.5-124.fc13.i686
+ 
+## CentOS and Red Hat (RHEL) example ##
+KERN_DIR=/usr/src/kernels/2.6.18-194.11.1.el5-x86_64
+ 
+## Export KERN_DIR ##
+export KERN_DIR

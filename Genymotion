@@ -1,0 +1,18 @@
+https://www.2daygeek.com/install-genymotion-android-emulator-on-ubuntu-debian-fedora-arch-linux/
+	3) genymotion installation
+We already knows, for thirdparty software installation should go to /opt directory. So, first will move the download file from /home/username/download to /opt directory then start installation by following the below steps.
+
+[Move the downloaded file to /opt directory]
+# mv genymotion-2.3.1_x64.bin /opt
+
+[Set executable permission]
+# chmod +x genymotion-2.3.1_x64.bin
+
+[Install genymotion by running the file]
+# ./genymotion-2.3.1_x64.bin
+
+[Navigate into genymotion directory]
+# cd genymotion
+
+[launch the genymotion]
+# ./genymotion
